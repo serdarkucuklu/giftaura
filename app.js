@@ -6,6 +6,7 @@ const ITEMS_PER_PAGE = 3;
 
 const recipientGroup = document.getElementById('recipient-group');
 const budgetGroup = document.getElementById('budget-group');
+const styleGroup = document.getElementById('style-group');
 const giftList = document.getElementById('gift-list');
 const countText = document.getElementById('results-count-text');
 
@@ -32,12 +33,14 @@ function getSelectedValue(group) {
 function updateResults() {
     const selectedRecipient = getSelectedValue(recipientGroup);
     const selectedBudget = getSelectedValue(budgetGroup);
+    const selectedStyle = getSelectedValue(styleGroup);
     
     // Filter items
     filteredGifts = allGifts.filter(gift => {
         const matchRecipient = gift.recipient === selectedRecipient;
         const matchBudget = gift.budget === selectedBudget;
-        return matchRecipient && matchBudget;
+        const matchStyle = selectedStyle === 'tumu' || gift.style === selectedStyle;
+        return matchRecipient && matchBudget && matchStyle;
     });
 
     currentPage = 1;
@@ -169,7 +172,8 @@ function renderFallback() {
             image_url: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=300",
             affiliate_link: "https://www.amazon.com.tr/s?k=deri+masa+pedi+sumen&tag=aurafocus-21",
             recipient: "sevgili",
-            budget: "cuzi"
+            budget: "cuzi",
+            style: "sade"
         },
         {
             title: "Minimalist Ahşap Kitap Ayracı",
@@ -178,7 +182,8 @@ function renderFallback() {
             image_url: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
             affiliate_link: "https://www.amazon.com.tr/s?k=ahşap+kitap+ayracı&tag=aurafocus-21",
             recipient: "kitap",
-            budget: "cuzi"
+            budget: "cuzi",
+            style: "sade"
         },
         {
             title: "Premium Mekanik Klavye (Gateron Switch)",
@@ -187,7 +192,8 @@ function renderFallback() {
             image_url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
             affiliate_link: "https://www.amazon.com.tr/s?k=mekanik+klavye+gateron&tag=aurafocus-21",
             recipient: "sevgili",
-            budget: "luks"
+            budget: "luks",
+            style: "modern"
         }
     ];
     updateResults();
@@ -196,6 +202,7 @@ function renderFallback() {
 // Event Listeners
 recipientGroup.addEventListener('change', updateResults);
 budgetGroup.addEventListener('change', updateResults);
+styleGroup.addEventListener('change', updateResults);
 
 // Initialize
 loadGifts();
