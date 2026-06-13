@@ -1,5 +1,9 @@
 // State Variables
 let allGifts = [];
+let filteredGifts = [];
+let currentPage = 1;
+const ITEMS_PER_PAGE = 3;
+
 const recipientGroup = document.getElementById('recipient-group');
 const budgetGroup = document.getElementById('budget-group');
 const giftList = document.getElementById('gift-list');
@@ -30,17 +34,32 @@ function updateResults() {
     const selectedBudget = getSelectedValue(budgetGroup);
     
     // Filter items
-    const filtered = allGifts.filter(gift => {
+    filteredGifts = allGifts.filter(gift => {
         const matchRecipient = gift.recipient === selectedRecipient;
         const matchBudget = gift.budget === selectedBudget;
         return matchRecipient && matchBudget;
     });
 
-    // Render count
-    countText.textContent = `Şu an seçtiğiniz kriterlere uygun ${filtered.length} harika alternatif listeleniyor.`;
+    currentPage = 1;
+    renderResults();
+}
 
-    // Render lists
-    renderGiftCards(filtered);
+// Render filtered page
+function renderResults() {
+    // Render count
+    countText.textContent = `Şu an seçtiğiniz kriterlere uygun ${filteredGifts.length} harika alternatif listeleniyor.`;
+
+    const totalPages = Math.ceil(filteredGifts.length / ITEMS_PER_PAGE);
+    
+    // Slice items for current page
+    const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+    const pageItems = filteredGifts.slice(startIdx, startIdx + ITEMS_PER_PAGE);
+
+    // Render cards
+    renderGiftCards(pageItems);
+
+    // Render pagination controls
+    renderPagination(totalPages);
 }
 
 // Render filtered cards
@@ -83,6 +102,61 @@ function renderGiftCards(items) {
         `;
         giftList.appendChild(card);
     });
+}
+
+// Render pagination navigation
+function renderPagination(totalPages) {
+    let paginationContainer = document.getElementById('pagination-container');
+    if (!paginationContainer) {
+        paginationContainer = document.createElement('div');
+        paginationContainer.id = 'pagination-container';
+        paginationContainer.className = 'pagination-container';
+        giftList.parentNode.appendChild(paginationContainer);
+    }
+    
+    paginationContainer.innerHTML = '';
+
+    if (totalPages <= 1) {
+        paginationContainer.style.display = 'none';
+        return;
+    }
+
+    paginationContainer.style.display = 'flex';
+
+    // Prev Button
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'page-btn';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.innerHTML = '<i class="fa-solid fa-chevron-left"></i>';
+    prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            renderResults();
+            window.scrollTo({ top: giftList.offsetTop - 100, behavior: 'smooth' });
+        }
+    });
+
+    // Page Info
+    const pageInfo = document.createElement('span');
+    pageInfo.className = 'page-info';
+    pageInfo.textContent = `${currentPage} / ${totalPages}`;
+
+    // Next Button
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'page-btn';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
+    nextBtn.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            renderResults();
+            window.scrollTo({ top: giftList.offsetTop - 100, behavior: 'smooth' });
+        }
+    });
+
+    paginationContainer.appendChild(prevBtn);
+    paginationContainer.appendChild(pageInfo);
+    paginationContainer.appendChild(nextBtn);
 }
 
 // Render fallback items on load error
