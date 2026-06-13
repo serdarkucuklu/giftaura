@@ -27,104 +27,157 @@
     <header>
         <div class="header-container">
             <h1 class="logo">G I F T <span class="accent">A U R A</span></h1>
-            <p class="tagline">Zihnini sadeleştir, doğru hediyeyi keşfet</p>
         </div>
     </header>
 
-    <main class="main-container">
-        <!-- LEFT COLUMN: Filters -->
-        <section class="left-col">
-            <!-- Gift Finder Filter Card -->
-            <div class="glass-card filter-card">
-                <h3 class="section-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Hediye Kriterleri</h3>
-                <p class="filter-helper">Aşağıdaki seçenekleri değiştirerek gerçek zamanlı estetik hediye önerilerini listeleyin.</p>
-
-                <!-- Recipient Selector -->
-                <div class="filter-group">
-                    <span class="group-label">Kime Hediye Alıyorsunuz?</span>
-                    <div class="pill-grid" id="recipient-group">
-                        <label class="pill-label">
-                            <input type="radio" name="recipient" value="sevgili" checked>
-                            <span class="pill-text"><i class="fa-solid fa-heart"></i> Sevgiliye</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="recipient" value="arkadas">
-                            <span class="pill-text"><i class="fa-solid fa-user-group"></i> Arkadaşa</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="recipient" value="aile">
-                            <span class="pill-text"><i class="fa-solid fa-house-chimney-user"></i> Aileye</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="recipient" value="teknoloji">
-                            <span class="pill-text"><i class="fa-solid fa-laptop"></i> Teknoloji Severe</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="recipient" value="kahve">
-                            <span class="pill-text"><i class="fa-solid fa-mug-hot"></i> Kahve Severe</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="recipient" value="kitap">
-                            <span class="pill-text"><i class="fa-solid fa-book"></i> Kitap Severe</span>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Budget Selector -->
-                <div class="filter-group">
-                    <span class="group-label">Bütçe Aralığı Nedir?</span>
-                    <div class="pill-grid" id="budget-group">
-                        <label class="pill-label">
-                            <input type="radio" name="budget" value="cuzi" checked>
-                            <span class="pill-text">Cüzi (500 TL Altı)</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="budget" value="orta">
-                            <span class="pill-text">Orta (500 - 1500 TL)</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="budget" value="luks">
-                            <span class="pill-text">Lüks (1500 TL+)</span>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Style Selector -->
-                <div class="filter-group">
-                    <span class="group-label">Tasarım Çizgisi Nedir?</span>
-                    <div class="pill-grid" id="style-group">
-                        <label class="pill-label">
-                            <input type="radio" name="style" value="tumu" checked>
-                            <span class="pill-text">Tümü</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="style" value="sade">
-                            <span class="pill-text">Sade & Minimalist</span>
-                        </label>
-                        <label class="pill-label">
-                            <input type="radio" name="style" value="modern">
-                            <span class="pill-text">Modern & Fonksiyonel</span>
-                        </label>
-                    </div>
-                </div>
+    <div class="app-layout-wrapper">
+        <!-- LEFT SKYSCRAPER COLUMN -->
+        <aside class="skyscraper-column left-skyscraper">
+            <div class="skyscraper-title"><i class="fa-solid fa-star"></i> Popüler Hediyeler</div>
+            <div class="skyscraper-items-container">
+                <a href="https://www.amazon.com.tr/s?k=minimalist+deri+kartlik&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=150" alt="Deri Kartlık" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Minimalist Deri Kartlık</div>
+                    <div class="skyscraper-item-price">189 TL</div>
+                </a>
+                <a href="https://www.amazon.com.tr/s?k=tasinabilir+bluetooth+hoparlor&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=150" alt="Bluetooth Hoparlör" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Taşınabilir Bluetooth Hoparlör</div>
+                    <div class="skyscraper-item-price">599 TL</div>
+                </a>
+                <a href="https://www.amazon.com.tr/s?k=premium+kahve+hediye+seti&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=150" alt="Kahve Hediye Seti" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Premium Kahve Hediye Seti</div>
+                    <div class="skyscraper-item-price">450 TL</div>
+                </a>
+                <a href="https://www.amazon.com.tr/s?k=sik+termos+mug&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=150" alt="Şık Termos" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Şık Çelik Termos / Mug</div>
+                    <div class="skyscraper-item-price">299 TL</div>
+                </a>
             </div>
+        </aside>
 
+        <main class="main-container">
+            <!-- LEFT COLUMN: Filters -->
+            <section class="left-col">
+                <!-- Gift Finder Filter Card -->
+                <div class="glass-card filter-card">
+                    <h3 class="section-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Hediye Kriterleri</h3>
+                    <p class="filter-helper">Aşağıdaki seçenekleri değiştirerek gerçek zamanlı estetik hediye önerilerini listeleyin.</p>
 
-        </section>
+                    <!-- Recipient Selector -->
+                    <div class="filter-group">
+                        <span class="group-label">Kime Hediye Alıyorsunuz?</span>
+                        <div class="pill-grid" id="recipient-group">
+                            <label class="pill-label">
+                                <input type="radio" name="recipient" value="sevgili" checked>
+                                <span class="pill-text"><i class="fa-solid fa-heart"></i> Sevgiliye</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="recipient" value="arkadas">
+                                <span class="pill-text"><i class="fa-solid fa-user-group"></i> Arkadaşa</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="recipient" value="aile">
+                                <span class="pill-text"><i class="fa-solid fa-house-chimney-user"></i> Aileye</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="recipient" value="teknoloji">
+                                <span class="pill-text"><i class="fa-solid fa-laptop"></i> Teknoloji Severe</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="recipient" value="kahve">
+                                <span class="pill-text"><i class="fa-solid fa-mug-hot"></i> Kahve Severe</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="recipient" value="kitap">
+                                <span class="pill-text"><i class="fa-solid fa-book"></i> Kitap Severe</span>
+                            </label>
+                        </div>
+                    </div>
 
-        <!-- RIGHT COLUMN: Recommendation Display Grid -->
-        <section class="right-col">
-            <div class="glass-card results-card">
-                <h3 class="section-title"><i class="fa-solid fa-gift"></i> Önerilen Estetik Seçimler</h3>
-                <p class="section-subtitle" id="results-count-text">Yükleniyor...</p>
-                
-                <div class="gift-grid" id="gift-list">
-                    <!-- Cards loaded dynamically from gifts.json -->
-                    <div class="gift-item-placeholder">Hediye alternatifleri yükleniyor...</div>
+                    <!-- Budget Selector -->
+                    <div class="filter-group">
+                        <span class="group-label">Bütçe Aralığı Nedir?</span>
+                        <div class="pill-grid" id="budget-group">
+                            <label class="pill-label">
+                                <input type="radio" name="budget" value="cuzi" checked>
+                                <span class="pill-text">Cüzi (500 TL Altı)</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="budget" value="orta">
+                                <span class="pill-text">Orta (500 - 1500 TL)</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="budget" value="luks">
+                                <span class="pill-text">Lüks (1500 TL+)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Style Selector -->
+                    <div class="filter-group">
+                        <span class="group-label">Tasarım Çizgisi Nedir?</span>
+                        <div class="pill-grid" id="style-group">
+                            <label class="pill-label">
+                                <input type="radio" name="style" value="tumu" checked>
+                                <span class="pill-text">Tümü</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="style" value="sade">
+                                <span class="pill-text">Sade & Minimalist</span>
+                            </label>
+                            <label class="pill-label">
+                                <input type="radio" name="style" value="modern">
+                                <span class="pill-text">Modern & Fonksiyonel</span>
+                            </label>
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <!-- RIGHT COLUMN: Recommendation Display Grid -->
+            <section class="right-col">
+                <div class="glass-card results-card">
+                    <h3 class="section-title"><i class="fa-solid fa-gift"></i> Önerilen Estetik Seçimler</h3>
+                    <p class="section-subtitle" id="results-count-text">Yükleniyor...</p>
+                    
+                    <div class="gift-grid" id="gift-list">
+                        <!-- Cards loaded dynamically from gifts.json -->
+                        <div class="gift-item-placeholder">Hediye alternatifleri yükleniyor...</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- RIGHT SKYSCRAPER COLUMN -->
+        <aside class="skyscraper-column right-skyscraper">
+            <div class="skyscraper-title"><i class="fa-solid fa-lightbulb"></i> Estetik Seçimler</div>
+            <div class="skyscraper-items-container">
+                <a href="https://www.amazon.com.tr/s?k=klasik+dolma+kalem+set&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=150" alt="Dolma Kalem" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Klasik Dolma Kalem Seti</div>
+                    <div class="skyscraper-item-price">389 TL</div>
+                </a>
+                <a href="https://www.amazon.com.tr/s?k=minimalist+kece+ev+terligi&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=150" alt="Keçe Terlik" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Minimalist Keçe Ev Terliği</div>
+                    <div class="skyscraper-item-price">249 TL</div>
+                </a>
+                <a href="https://www.amazon.com.tr/s?k=akilli+dokunmatik+gece+lambasi&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=150" alt="Gece Lambası" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Akıllı Dokunmatik Gece Lambası</div>
+                    <div class="skyscraper-item-price">349 TL</div>
+                </a>
+                <a href="https://www.amazon.com.tr/s?k=seramik+el+yapimi+fincan&tag=aurafocus-21" target="_blank" rel="noopener" class="skyscraper-item">
+                    <img src="https://images.unsplash.com/photo-1517256064527-09c53b2d0ec6?w=150" alt="Seramik Fincan" class="skyscraper-item-img">
+                    <div class="skyscraper-item-title">Seramik El Yapımı Fincan</div>
+                    <div class="skyscraper-item-price">199 TL</div>
+                </a>
             </div>
-        </section>
-    </main>
+        </aside>
+    </div>
 
     <footer>
         <div class="footer-container">
