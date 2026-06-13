@@ -172,6 +172,15 @@ function renderFallback() {
             budget: "cuzi"
         },
         {
+            title: "Minimalist Ahşap Kitap Ayracı",
+            desc: "Doğal ahşaptan el yapımı olarak üretilmiş şık kitap ayracı.",
+            price: "149 TL",
+            image_url: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+            affiliate_link: "https://www.amazon.com.tr/s?k=ahşap+kitap+ayracı&tag=aurafocus-21",
+            recipient: "kitap",
+            budget: "cuzi"
+        },
+        {
             title: "Premium Mekanik Klavye (Gateron Switch)",
             desc: "Yazılımcılar ve teknoloji meraklıları için üst düzey yazma hissine sahip mekanik klavye.",
             price: "1.799 TL",

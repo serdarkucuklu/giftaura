@@ -19,6 +19,15 @@
       "budget": "cuzi"
     },
     {
+      "title": "Mini Fotoğraflı Ahşap Anı Çerçevesi",
+      "desc": "Birlikte biriktirdiğiniz en güzel anları başucunuzda taşıyacak, el yapımı doğal ahşap fotoğraf çerçevesi.",
+      "price": "199 TL",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=ahşap+fotoğraf+çerçevesi&tag=aurafocus-21",
+      "recipient": "sevgili",
+      "budget": "cuzi"
+    },
+    {
       "title": "Minimalist Kalp Kolye Ucu",
       "desc": "Aşkınızın saf ve zarif ifadesi olan bu minimalist kolye, günlük kullanımda dahi şıklığınızı tamamlayacak.",
       "price": "899 TL",
@@ -33,6 +42,15 @@
       "price": "749 TL",
       "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=romantik+dekoratif+heykel&tag=aurafocus-21",
+      "recipient": "sevgili",
+      "budget": "orta"
+    },
+    {
+      "title": "Özel Kutulu Soya Mum Seti",
+      "desc": "Özel cam kaplarında gelen ve yaşam alanınıza sakinleştirici bir koku yayan doğal soya mumu hediye seti.",
+      "price": "649 TL",
+      "image_url": "https://images.unsplash.com/photo-1606744824163-985d376605aa?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=özel+kutulu+soya+mum+seti&tag=aurafocus-21",
       "recipient": "sevgili",
       "budget": "orta"
     },
@@ -55,6 +73,15 @@
       "budget": "luks"
     },
     {
+      "title": "Premium Çift Parfüm Seti",
+      "desc": "Karşılıklı uyumu ve zarafeti temsil eden, prestijli markaların imza kokularından oluşan lüks hediye seti.",
+      "price": "2.999 TL",
+      "image_url": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=premium+parfüm+seti&tag=aurafocus-21",
+      "recipient": "sevgili",
+      "budget": "luks"
+    },
+    {
       "title": "Minimalist Tasarım Not Defteri",
       "desc": "Fikirlerini ve anılarını şık bir defterde toplamayı seven arkadaşınız için, ilham verici ve kullanışlı bir hediye.",
       "price": "249 TL",
@@ -69,6 +96,15 @@
       "price": "199 TL",
       "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=türk+kahvesi+magnet+set&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Şık Metal Masa Takvimi",
+      "desc": "Her yıl tekrar kullanılabilen, endüstriyel esintili minimalist ve modern masaüstü takvimi.",
+      "price": "229 TL",
+      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=metal+masa+takvimi&tag=aurafocus-21",
       "recipient": "arkadas",
       "budget": "cuzi"
     },
@@ -91,6 +127,15 @@
       "budget": "orta"
     },
     {
+      "title": "Aromaterapi Uçucu Yağ Difüzörü",
+      "desc": "Ultrasonik dalgalarla hoş kokular yayan ve odanın havasını tazeleyen estetik ahşap görünümlü difüzör.",
+      "price": "799 TL",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=uçucu+yağ+difüzörü&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "orta"
+    },
+    {
       "title": "Taşınabilir Bluetooth Hoparlör",
       "desc": "Müziği her yere taşımayı seven arkadaşınız için, güçlü ses kalitesi ve şık tasarımıyla öne çıkan taşınabilir bir hoparlör.",
       "price": "1.599 TL",
@@ -105,6 +150,15 @@
       "price": "1.699 TL",
       "image_url": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=minimalist+masaüstü+düzenleyici&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "luks"
+    },
+    {
+      "title": "Ergonomik Alüminyum Laptop Standı",
+      "desc": "Dayanıklı alüminyum alaşımdan üretilmiş, duruş bozukluğunu engelleyen şık ve premium dizüstü bilgisayar standı.",
+      "price": "1.590 TL",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=alüminyum+laptop+standı&tag=aurafocus-21",
       "recipient": "arkadas",
       "budget": "luks"
     },
@@ -127,6 +181,15 @@
       "budget": "cuzi"
     },
     {
+      "title": "El Yapımı Seramik Sosluk Seti",
+      "desc": "Geleneksel yöntemlerle şekillendirilmiş ve sırlanmış, sofralara rustik bir zarafet katacak 3'lü seramik set.",
+      "price": "249 TL",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=seramik+sosluk+set&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "cuzi"
+    },
+    {
       "title": "Zarif Çiçek Vazo Seti",
       "desc": "Evinizin her köşesine estetik bir dokunuş katacak, modern ve şık tasarımlı bu vazolarla yaşam alanınızı canlandırın.",
       "price": "699 TL",
@@ -141,6 +204,15 @@
       "price": "879 TL",
       "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+elektrikli+su+ısıtıcı&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "orta"
+    },
+    {
+      "title": "Hasır Çamaşır / Düzenleme Sepeti",
+      "desc": "Doğal malzemelerden el işçiliğiyle örülmüş, evdeki dağınıklığı estetik bir şekilde toplayan kapaklı sepet.",
+      "price": "689 TL",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=hasır+düzenleme+sepeti&tag=aurafocus-21",
       "recipient": "aile",
       "budget": "orta"
     },
@@ -163,6 +235,15 @@
       "budget": "luks"
     },
     {
+      "title": "Premium Katlanabilir Robot Süpürge",
+      "desc": "Yüksek emiş gücü ve akıllı haritalama teknolojisiyle evinizi yorulmadan tertemiz yapan yeni nesil robot yardımcı.",
+      "price": "7.490 TL",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=robot+süpürge&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "luks"
+    },
+    {
       "title": "Kablosuz Şarj Standı",
       "desc": "Şık ve pratik bu kablosuz şarj standı, masanızda dağınıklığı önlerken cihazlarınızı her zaman hazır tutar.",
       "price": "449 TL",
@@ -177,6 +258,15 @@
       "price": "389 TL",
       "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=portatif+mini+hava+üfleyici&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Kablo Düzenleyici Deri Klips Seti",
+      "desc": "Masadaki kablo karmaşasını bitiren, yüksek kaliteli hakiki deriden üretilmiş 5'li kablo düzenleme çıtçıt seti.",
+      "price": "149 TL",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=deri+kablo+düzenleyici&tag=aurafocus-21",
       "recipient": "teknoloji",
       "budget": "cuzi"
     },
@@ -199,8 +289,17 @@
       "budget": "orta"
     },
     {
+      "title": "Çok Fonksiyonlu USB-C Hub / Adaptör",
+      "desc": "HDMI, USB 3.0 ve SD kart girişleri sunan, alüminyum alaşımlı şık ve hızlı bağlantı istasyonu.",
+      "price": "849 TL",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=usb-c+hub+adaptör&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "orta"
+    },
+    {
       "title": "Gürültü Önleyici Premium Kulaklıklar",
-      "desc": "Ses kalitesinde zirveyi arayanlar için tasarlanmış bu premium kulaklıklar, müzik dinleme deneyiminizi bir üst seviyeye taşır.",
+      "desc": "Ses kalitesinde zirveyi arayanlar için tasarlanmış this premium kulaklıklar, müzik dinleme deneyiminizi bir üst seviyeye taşır.",
       "price": "2.899 TL",
       "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=gürültü+önleyici+premium+kulaklık&tag=aurafocus-21",
@@ -213,6 +312,15 @@
       "price": "1.799 TL",
       "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+mekanik+klavye&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "luks"
+    },
+    {
+      "title": "Ultra Geniş Kavisli Oyuncu Monitörü",
+      "desc": "Üstün yenileme hızı ve geniş kavisli yapısıyla çalışma ve eğlence deneyiminizi kusursuzlaştıran lüks monitör.",
+      "price": "6.899 TL",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=kavisli+oyuncu+monitörü&tag=aurafocus-21",
       "recipient": "teknoloji",
       "budget": "luks"
     },
@@ -235,6 +343,15 @@
       "budget": "cuzi"
     },
     {
+      "title": "Manuel El Değirmeni (Kahve Öğütücü)",
+      "desc": "Kahve çekirdeklerinizi taze taze öğüterek en doğal aromayı fincanınıza taşıyacak seramik bıçaklı manuel öğütücü.",
+      "price": "349 TL",
+      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=manuel+kahve+öğütücü&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "cuzi"
+    },
+    {
       "title": "Elektrikli Süt Köpürtücü",
       "desc": "Evde barista kalitesinde kahveler hazırlamak artık çok kolay! Bu köpürtücü ile latte ve cappuccino keyfinizi zirveye taşıyın.",
       "price": "789 TL",
@@ -249,6 +366,15 @@
       "price": "989 TL",
       "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
       "affiliate_link": "https://www.amazon.com.tr/s?k=pour+over+kahve+demleme+seti&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "orta"
+    },
+    {
+      "title": "Çift Cidarlı Borosilikat Cam Bardak Seti",
+      "desc": "Sıcaklığı dışarı yansıtmayan ve kahveyi havada asılı gibi gösteren estetik 2'li cam bardak seti.",
+      "price": "529 TL",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=çift+cidarlı+cam+bardak&tag=aurafocus-21",
       "recipient": "kahve",
       "budget": "orta"
     },
@@ -269,7 +395,97 @@
       "affiliate_link": "https://www.amazon.com.tr/s?k=otomatik+filtre+kahve+makinesi&tag=aurafocus-21",
       "recipient": "kahve",
       "budget": "luks"
+    },
+    {
+      "title": "Ev Tipi Espresso Makinesi",
+      "desc": "Yüksek basınçlı buhar gücüyle mükemmel kremaya sahip espressolar ve kahveler hazırlayan şık yarı profesyonel makine.",
+      "price": "9.490 TL",
+      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=yarı+profesyonel+espresso+makinesi&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "luks"
+    },
+    {
+      "title": "Minimalist Ahşap Kitap Ayracı",
+      "desc": "Doğal ahşaptan el yapımı olarak üretilmiş, okuma saatlerinize sıcak bir dokunuş katacak şık kitap ayracı.",
+      "price": "149 TL",
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=ahşap+kitap+ayracı&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Retro Kitap Okuma Işığı",
+      "desc": "Kitap sayfalarına tam oturan ve gözü yormayan yumuşak ışık sunan nostaljik tasarımlı okuma lambası.",
+      "price": "279 TL",
+      "image_url": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=retro+okuma+ışığı&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Şık Kitap Kılıfı (Kumaş Baskılı)",
+      "desc": "Kitaplarınızı çantanızda yıpranmaktan koruyan, kaliteli yıkanabilir kumaştan üretilmiş estetik koruma kılıfı.",
+      "price": "199 TL",
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=kitap+kilifi&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Ahşap Masaüstü Okuma Standı",
+      "desc": "Açısı ayarlanabilir doğal ahşap stand, kitap okurken veya tablet kullanırken ellerinizi serbest bırakır.",
+      "price": "689 TL",
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=ahşap+kitap+standı&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "orta"
+    },
+    {
+      "title": "Klipsli Şarj Edilebilir Kitap Lambası",
+      "desc": "3 farklı ışık modu ve esnek boynu ile karanlıkta konforlu kitap okuma deneyimi sunan şarjlı lamba.",
+      "price": "749 TL",
+      "image_url": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=şarjlı+kitap+okuma+lambası&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "orta"
+    },
+    {
+      "title": "Ahşap Ayarlanabilir Başucu Kitap Tutucu",
+      "desc": "Yatakta veya kanepede kitap okumayı kolaylaştıran, ergonomik ve katlanabilir ahşap tutma aparatı.",
+      "price": "849 TL",
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=başucu+kitap+tutucu&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "orta"
+    },
+    {
+      "title": "Hakiki Deri El Yapımı Kitap Kılıfı",
+      "desc": "Yıllar geçtikçe karakter kazanan, el işçiliğiyle üretilmiş prestijli ve ömürlük hakiki deri kitap koruyucu.",
+      "price": "1.799 TL",
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=hakiki+deri+kitap+kılıfı&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "luks"
+    },
+    {
+      "title": "Metal Geometrik Kitap Destek Seti",
+      "desc": "Kitaplığınızda kitapların dik durmasını sağlayan, heykelsi tasarıma sahip modern metal destek seti.",
+      "price": "1.890 TL",
+      "image_url": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=metal+kitap+destegi&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "luks"
+    },
+    {
+      "title": "Amazon Kindle Paperwhite E-Kitap Okuyucu",
+      "desc": "Gözü yormayan e-mürekkep ekranı ve binlerce kitabı sığdıran kapasitesiyle okurların vazgeçilmezi.",
+      "price": "5.990 TL",
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=kindle+paperwhite&tag=aurafocus-21",
+      "recipient": "kitap",
+      "budget": "luks"
     }
   ],
-  "last_updated": "2026-06-13T18:11:54.249519Z"
+  "last_updated": "2026-06-13T20:41:00.000000Z"
 }
