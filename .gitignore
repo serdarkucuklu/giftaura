@@ -4,3 +4,5 @@ __pycache__/
 *.log
 temp_*.mp4
 temp_*.jpg
+
+.vercel
