@@ -1,140 +1,275 @@
 {
   "gifts": [
     {
-      "title": "Gümüş Kalp Tasarım Kolye",
-      "desc": "Sevgiliniz için zamansız bir aşk ifadesi. Zarif tasarımıyla her anınıza anlam katacak, kalıcı bir hediye.",
-      "price": "799 TL",
-      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=g%C3%BCm%C3%BC%C5%9F+kalp+tasar%C4%B1m+kolye&tag=aurafocus-21",
-      "recipient": "sevgili",
-      "budget": "orta"
-    },
-    {
-      "title": "Kişiye Özel İsimli Çift Kupası",
-      "desc": "Birlikte içtiğiniz kahvelere sıcak bir dokunuş katın. İsimlerinize özel tasarlanmış bu kupalarla her yudumda sevginizi hissedin.",
-      "price": "249 TL",
+      "title": "Kişiye Özel İsimli Seramik Kupa Seti",
+      "desc": "Aşkınızın sıcaklığını her yudumda hissettirecek, sizin için özel tasarlanmış bu kupalarla güne tatlı bir başlangıç yapın.",
+      "price": "299 TL",
       "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=ki%C5%9Fiye+%C3%B6zel+isimli+%C3%A7ift+kupasi&tag=aurafocus-21",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=kişiye+özel+kupa+seti&tag=aurafocus-21",
       "recipient": "sevgili",
       "budget": "cuzi"
     },
     {
-      "title": "Yüksek Performanslı Akıllı Saat",
-      "desc": "Teknoloji tutkunu sevdikleriniz için vazgeçilmez bir aksesuar. Sağlık takibinden bildirimlere kadar her an yanınızda.",
-      "price": "3.299 TL",
-      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=y%C3%BCksek+performansl%C4%B1+ak%C4%B1ll%C4%B1+saat&tag=aurafocus-21",
-      "recipient": "teknoloji",
-      "budget": "luks"
-    },
-    {
-      "title": "Estetik Kablosuz Hızlı Şarj Standı",
-      "desc": "Masaüstüne zarafet katarken cihazlarınızı hızlıca şarj edin. Minimalist tasarımıyla her ortama uyum sağlar.",
-      "price": "649 TL",
-      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=estetik+kablosuz+h%C4%B1zl%C4%B1+%C5%9Farj+stand%C4%B1&tag=aurafocus-21",
-      "recipient": "teknoloji",
-      "budget": "orta"
-    },
-    {
-      "title": "Programlanabilir Otomatik Filtre Kahve Makinesi",
-      "desc": "Kahve severler için sabahları mükemmel bir başlangıç. Dilediğiniz saatte taze demlenmiş kahvenin keyfini çıkarın.",
-      "price": "999 TL",
-      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=programlanabilir+otomatik+filtre+kahve+makinesi&tag=aurafocus-21",
-      "recipient": "kahve",
-      "budget": "orta"
-    },
-    {
-      "title": "El İşçiliğiyle Hazırlanmış Geleneksel Türk Kahvesi Seti",
-      "desc": "Türk kahvesi ritüelini sevenler için eşsiz bir deneyim. Geleneksel motiflerle bezenmiş bu setle sohbetlerinize tat katın.",
-      "price": "899 TL",
-      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=el+i%C5%9F%C3%A7ili%C4%9Fiyle+haz%C4%B1rlanm%C4%B1%C5%9F+t%C3%BCrk+kahvesi+seti&tag=aurafocus-21",
-      "recipient": "kahve",
-      "budget": "orta"
-    },
-    {
-      "title": "Premium Yumuşacık Kış Battaniyesi",
-      "desc": "Ebeveynleriniz için soğuk kış akşamlarında sıcacık bir konfor. Evlerine şıklık ve sıcaklık katacak.",
-      "price": "729 TL",
-      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=premium+yumu%C5%9Fac%C4%B1k+k%C4%B1%C5%9F+battaniyesi&tag=aurafocus-21",
-      "recipient": "aile",
-      "budget": "orta"
-    },
-    {
-      "title": "Modern Seramik Ev Dekoru Vazo",
-      "desc": "Evin her köşesine modern ve sanatsal bir dokunuş. Misafirleri etkileyecek bu vazo, sevdiklerinizin evine şıklık katacak.",
-      "price": "389 TL",
-      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=modern+seramik+ev+dekoru+vazo&tag=aurafocus-21",
-      "recipient": "aile",
-      "budget": "cuzi"
-    },
-    {
-      "title": "Şık Tasarım Nazar Boncuklu Bileklik",
-      "desc": "Arkadaşlarınız için hem stil sahibi hem de nazara karşı koruyucu bir hediye. Şansı ve enerjiyi her zaman yanında taşıyacak.",
-      "price": "219 TL",
-      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=%C5%9F%C4%B1k+tasar%C4%B1m+nazar+boncuklu+bileklik&tag=aurafocus-21",
-      "recipient": "arkadas",
-      "budget": "cuzi"
-    },
-    {
-      "title": "Hızlı Kuruyan Premium Peştemal Havlu Seti",
-      "desc": "Spa keyfi veya plaj günleri için ideal, hafif ve şık peştemaller. Arkadaşlarınızın tatil ve ev rutinlerine pratik bir estetik katın.",
-      "price": "479 TL",
-      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=h%C4%B1zl%C4%B1+kuruyan+premium+pe%C5%9Femal+havlu+seti&tag=aurafocus-21",
-      "recipient": "arkadas",
-      "budget": "cuzi"
-    },
-    {
-      "title": "Masaüstü Ergonomik Klavye ve Mouse Seti",
-      "desc": "Uzun çalışma saatlerinde konfor arayan teknoloji meraklıları için ideal. Sağlıklı ve verimli bir deneyim sunar.",
-      "price": "1.199 TL",
-      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=masa%C3%BCst%C3%BC+ergonomik+klavye+ve+mouse+seti&tag=aurafocus-21",
-      "recipient": "teknoloji",
-      "budget": "orta"
-    },
-    {
-      "title": "Özel Harman Türk Kahvesi Koleksiyonu",
-      "desc": "Farklı lezzetler denemeyi seven kahve tutkunları için benzersiz bir hediye. Her yudumda farklı bir aroma keşfedin.",
+      "title": "Nazar Boncuklu Şık Bileklik",
+      "desc": "Geleneksel motiflerle modern şıklığı birleştiren bu bileklik, sevdiklerinizin her an yanında olacak zarif bir koruyucu.",
       "price": "399 TL",
-      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=%C3%B6zel+harman+t%C3%BCrk+kahvesi+koleksiyonu&tag=aurafocus-21",
-      "recipient": "kahve",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=nazar+boncuklu+bileklik&tag=aurafocus-21",
+      "recipient": "sevgili",
       "budget": "cuzi"
     },
     {
-      "title": "Modern Tasarım Porselen Yemek Takımı",
-      "desc": "Aile yemeklerine şıklık katacak, özel günler için ideal bir hediye. Kaliteli porseleniyle sofralara zarafet taşır.",
-      "price": "2.199 TL",
+      "title": "Minimalist Kalp Kolye Ucu",
+      "desc": "Aşkınızın saf ve zarif ifadesi olan bu minimalist kolye, günlük kullanımda dahi şıklığınızı tamamlayacak.",
+      "price": "899 TL",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=minimalist+kalp+kolye&tag=aurafocus-21",
+      "recipient": "sevgili",
+      "budget": "orta"
+    },
+    {
+      "title": "Çiftler İçin Romantik Dekoratif Heykelcik",
+      "desc": "Evinizin en özel köşesinde aşkınızın sembolü olacak bu heykelcik, romantik anlarınıza anlam katacak.",
+      "price": "749 TL",
       "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=modern+tasar%C4%B1m+porselen+yemek+tak%C4%B1m%C4%B1&tag=aurafocus-21",
-      "recipient": "aile",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=romantik+dekoratif+heykel&tag=aurafocus-21",
+      "recipient": "sevgili",
+      "budget": "orta"
+    },
+    {
+      "title": "Akıllı Giyilebilir Teknoloji Saat",
+      "desc": "Hem şık hem de fonksiyonel bu akıllı saat, sevdiklerinizin hayatını kolaylaştırırken stilini tamamlayacak.",
+      "price": "2.499 TL",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+saat&tag=aurafocus-21",
+      "recipient": "sevgili",
       "budget": "luks"
     },
     {
-      "title": "Antika Esintili El Yapımı Seramik Kase",
-      "desc": "Arkadaşlarınızın evine sanatsal bir dokunuş katacak, el yapımı eşsiz bir hediye. Her detayı özenle işlenmiş.",
-      "price": "629 TL",
+      "title": "Özel Tasarım Deri Çanta",
+      "desc": "Asaleti ve fonksiyonelliği bir arada sunan bu özel tasarım deri çanta, sevdiklerinizin stilini zirveye taşıyacak.",
+      "price": "1.899 TL",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=özel+tasarım+deri+çanta&tag=aurafocus-21",
+      "recipient": "sevgili",
+      "budget": "luks"
+    },
+    {
+      "title": "Minimalist Tasarım Not Defteri",
+      "desc": "Fikirlerini ve anılarını şık bir defterde toplamayı seven arkadaşınız için, ilham verici ve kullanışlı bir hediye.",
+      "price": "249 TL",
+      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=minimalist+not+defteri&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Türk Kahvesi Temalı Magnet Seti",
+      "desc": "Geleneksel motiflerle modern estetiği buluşturan bu magnet seti, arkadaşınızın mutfağına neşeli bir dokunuş katacak.",
+      "price": "199 TL",
       "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=antika+esintili+el+yap%C4%B1m%C4%B1+seramik+kase&tag=aurafocus-21",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=türk+kahvesi+magnet+set&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Şık ve Fonksiyonel Bez Çanta",
+      "desc": "Günlük kullanımda stilini tamamlayacak, çevre dostu ve pratik bir hediye arayanlar için ideal bir seçenek.",
+      "price": "599 TL",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=şık+bez+çanta&tag=aurafocus-21",
       "recipient": "arkadas",
       "budget": "orta"
     },
     {
-      "title": "Akıllı Isı Kontrollü Termos Kupa",
-      "desc": "Kahvenizi veya çayınızı dilediğiniz sıcaklıkta tutan akıllı termos kupa. Hem teknoloji hem de kahve severler için pratik bir hediye.",
-      "price": "489 TL",
+      "title": "Yöresel Desenli Türk Peştemali",
+      "desc": "Hem plajda hem de evde kullanılabilecek, geleneksel Türk dokunuşlarını modern bir tarzla birleştiren bu peştemal, çok yönlü bir hediye.",
+      "price": "729 TL",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=yöresel+peştemal&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "orta"
+    },
+    {
+      "title": "Taşınabilir Bluetooth Hoparlör",
+      "desc": "Müziği her yere taşımayı seven arkadaşınız için, güçlü ses kalitesi ve şık tasarımıyla öne çıkan taşınabilir bir hoparlör.",
+      "price": "1.599 TL",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=taşınabilir+bluetooth+hoparlör&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "luks"
+    },
+    {
+      "title": "Minimalist Masaüstü Düzenleyici Seti",
+      "desc": "Çalışma alanını düzenlemeyi seven arkadaşınız için, estetik ve pratik bu set, verimliliği artırırken masasına şıklık katacak.",
+      "price": "1.699 TL",
+      "image_url": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=minimalist+masaüstü+düzenleyici&tag=aurafocus-21",
+      "recipient": "arkadas",
+      "budget": "luks"
+    },
+    {
+      "title": "Anne-Baba Temalı Kahve Fincanı Seti",
+      "desc": "Ebeveynlerinize özel tasarlanmış bu sevimli fincan setiyle kahve saatlerine neşe ve sıcaklık katın.",
+      "price": "379 TL",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=anne+baba+kahve+fincanı+seti&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Dekoratif Kokulu Mum Seti",
+      "desc": "Evinizin atmosferini anında değiştirecek, huzur veren kokularıyla ruhunuzu dinlendirecek zarif bir hediye.",
+      "price": "289 TL",
+      "image_url": "https://images.unsplash.com/photo-1606744824163-985d376605aa?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=dekoratif+kokulu+mum+seti&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Zarif Çiçek Vazo Seti",
+      "desc": "Evinizin her köşesine estetik bir dokunuş katacak, modern ve şık tasarımlı bu vazolarla yaşam alanınızı canlandırın.",
+      "price": "699 TL",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=zarif+çiçek+vazo+seti&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "orta"
+    },
+    {
+      "title": "Akıllı Elektrikli Su Isıtıcı",
+      "desc": "Hem şık hem de pratik bu akıllı su ısıtıcı, çay ve kahve hazırlığınızı hızlandırırken mutfağınıza modern bir hava katacak.",
+      "price": "879 TL",
       "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
-      "affiliate_link": "https://www.amazon.com.tr/s?k=ak%C4%B1ll%C4%B1+%C4%B1s%C4%B1+kontroll%C3%BC+termos+kupa&tag=aurafocus-21",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+elektrikli+su+ısıtıcı&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "orta"
+    },
+    {
+      "title": "Akıllı Hava Nemlendirici ve Difüzör",
+      "desc": "Evinizin havasını temizleyip nemlendirirken, favori esansiyel yağlarınızla huzurlu bir ortam yaratan bu cihaz, konforunuzu artıracak.",
+      "price": "1.799 TL",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+hava+nemlendirici+difüzör&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "luks"
+    },
+    {
+      "title": "Modern Tasarım Duvar Saati",
+      "desc": "Evinizin duvarlarına sanatsal bir dokunuş katacak, minimalist ve şık tasarımıyla her bakışta ilham verecek bu duvar saati.",
+      "price": "1.999 TL",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=modern+tasarım+duvar+saati&tag=aurafocus-21",
+      "recipient": "aile",
+      "budget": "luks"
+    },
+    {
+      "title": "Kablosuz Şarj Standı",
+      "desc": "Şık ve pratik bu kablosuz şarj standı, masanızda dağınıklığı önlerken cihazlarınızı her zaman hazır tutar.",
+      "price": "449 TL",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=kablosuz+şarj+standı&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Portatif Mini Hava Üfleyici",
+      "desc": "Elektronik cihazlarınızın temizliği için vazgeçilmez bir yardımcı olan bu portatif üfleyici, tozları zahmetsizce ortadan kaldırır.",
+      "price": "389 TL",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=portatif+mini+hava+üfleyici&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Yüksek Kaliteli Bluetooth Kulaklık",
+      "desc": "Üstün ses deneyimi sunan bu kablosuz kulaklıklar, müziği ve telefon görüşmelerini özgürce yaşamanızı sağlar.",
+      "price": "1.199 TL",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=bluetooth+kulaklık&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "orta"
+    },
+    {
+      "title": "Manyetik Levitasyon Küre Lambası",
+      "desc": "Eğlenceli ve büyüleyici bu manyetik küre lamba, çalışma masanıza bilimsel bir dokunuş katarken estetik bir görünüm sunar.",
+      "price": "999 TL",
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=manyetik+levitasyon+küre&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "orta"
+    },
+    {
+      "title": "Gürültü Önleyici Premium Kulaklıklar",
+      "desc": "Ses kalitesinde zirveyi arayanlar için tasarlanmış bu premium kulaklıklar, müzik dinleme deneyiminizi bir üst seviyeye taşır.",
+      "price": "2.899 TL",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=gürültü+önleyici+premium+kulaklık&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "luks"
+    },
+    {
+      "title": "Akıllı Mekanik Klavye",
+      "desc": "Oyun veya çalışma deneyiminizi dönüştürecek, özelleştirilebilir tuşları ve RGB aydınlatmasıyla dikkat çeken bu klavye tam size göre.",
+      "price": "1.799 TL",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+mekanik+klavye&tag=aurafocus-21",
+      "recipient": "teknoloji",
+      "budget": "luks"
+    },
+    {
+      "title": "Özel Tasarım Seramik Kahve Fincanı",
+      "desc": "Güne başlarken veya molanızda ruhunuzu okşayacak, minimalist ve şık tasarımlı bu fincanla kahve keyfinizi ikiye katlayın.",
+      "price": "329 TL",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=özel+tasarım+seramik+kahve+fincanı&tag=aurafocus-21",
       "recipient": "kahve",
       "budget": "cuzi"
+    },
+    {
+      "title": "Premium Termo Çelik Termos",
+      "desc": "Sıcak içeceklerinizi saatlerce sıcak tutacak, şık tasarımıyla dikkat çeken bu termos, kahve keyfinizi her yere taşır.",
+      "price": "479 TL",
+      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=premium+termo+çelik+termos&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "cuzi"
+    },
+    {
+      "title": "Elektrikli Süt Köpürtücü",
+      "desc": "Evde barista kalitesinde kahveler hazırlamak artık çok kolay! Bu köpürtücü ile latte ve cappuccino keyfinizi zirveye taşıyın.",
+      "price": "789 TL",
+      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=elektrikli+süt+köpürtücü&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "orta"
+    },
+    {
+      "title": "Pour-Over Kahve Demleme Seti",
+      "desc": "Kahve demleme ritüelini sevenler için, her fincanda mükemmel lezzeti yakalayacak zarif ve fonksiyonel bir set.",
+      "price": "989 TL",
+      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=pour+over+kahve+demleme+seti&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "orta"
+    },
+    {
+      "title": "Akıllı Isı Kontrollü Kupa",
+      "desc": "Kahvenizin ideal sıcaklığını uzun süre koruyan bu akıllı kupa ile her yudumda tazeleyici bir deneyim yaşayın.",
+      "price": "1.699 TL",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=akıllı+ısı+kontrollü+kupa&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "luks"
+    },
+    {
+      "title": "Otomatik Filtre Kahve Makinesi (Akıllı)",
+      "desc": "Tek tuşla mükemmel filtre kahve hazırlayan bu akıllı makine, sabah rutinlerinizi keyifli bir ritüele dönüştürecek.",
+      "price": "2.299 TL",
+      "image_url": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300",
+      "affiliate_link": "https://www.amazon.com.tr/s?k=otomatik+filtre+kahve+makinesi&tag=aurafocus-21",
+      "recipient": "kahve",
+      "budget": "luks"
     }
   ],
-  "last_updated": "2026-06-13T17:26:40.541359Z"
+  "last_updated": "2026-06-13T18:11:54.249519Z"
 }
