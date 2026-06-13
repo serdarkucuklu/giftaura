@@ -77,12 +77,12 @@ def run_agent():
     print("Curating filtered gift suggestions via Gemini...")
     generator_prompt = f"""
     You are an expert gift curator and affiliate marketer for GiftAura, a premium minimalist gift recommendation portal for Turkish youth.
-    Analyze the following search trends and curate a list of exactly 10-15 high-quality, aesthetic, and trending gift items sold on Amazon.com.tr.
+    Analyze the following search trends and curate a list of exactly 25 to 30 high-quality, aesthetic, and trending gift items sold on Amazon.com.tr.
     For each gift, you MUST assign a matching:
     - recipient: must be exactly one of: "sevgili", "arkadas", "aile", "teknoloji", "kahve"
     - budget: must be exactly one of: "cuzi" (under 500 TL), "orta" (500 to 1500 TL), "luks" (over 1500 TL)
     
-    Make sure to distribute gifts across different recipient/budget combinations.
+    Make sure to distribute gifts across different recipient/budget combinations, aiming to have at least 1-2 distinct gifts for every single one of the 15 possible combinations (5 recipients x 3 budgets) so that no filter state is empty.
     
     For each gift:
        - title: Catchy, clear product name in Turkish (e.g. "Termo-Dinamik Akıllı Çelik Termos").
