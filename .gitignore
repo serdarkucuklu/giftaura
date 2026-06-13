@@ -1,0 +1,6 @@
+__pycache__/
+.env
+.vercel/
+*.log
+temp_*.mp4
+temp_*.jpg

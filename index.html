@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftAura | Premium Minimalist Hediye Öneri ve Karar Asistanı</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="GiftAura - Sevdikleriniz için en şık, minimalist ve estetik hediye alternatiflerini bütçenize göre otonom olarak listeleyen hediye karar asistanı.">
+    <meta name="keywords" content="hediye önerileri, hediye fikirleri, minimalist hediye, sevgiliye hediye, yılbaşı hediyesi, amazon affiliate, hediye bulucu">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Blur Decorative Gradients -->
+    <div class="gradient-bg">
+        <div class="g1"></div>
+        <div class="g2"></div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <h1 class="logo">G I F T <span class="accent">A U R A</span></h1>
+            <p class="tagline">Zihnini sadeleştir, doğru hediyeyi keşfet</p>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- LEFT COLUMN: Filters -->
+        <section class="left-col">
+            <!-- Gift Finder Filter Card -->
+            <div class="glass-card filter-card">
+                <h3 class="section-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Hediye Kriterleri</h3>
+                <p class="filter-helper">Aşağıdaki seçenekleri değiştirerek gerçek zamanlı estetik hediye önerilerini listeleyin.</p>
+
+                <!-- Recipient Selector -->
+                <div class="filter-group">
+                    <span class="group-label">Kime Hediye Alıyorsunuz?</span>
+                    <div class="pill-grid" id="recipient-group">
+                        <label class="pill-label">
+                            <input type="radio" name="recipient" value="sevgili" checked>
+                            <span class="pill-text"><i class="fa-solid fa-heart"></i> Sevgiliye</span>
+                        </label>
+                        <label class="pill-label">
+                            <input type="radio" name="recipient" value="arkadas">
+                            <span class="pill-text"><i class="fa-solid fa-user-group"></i> Arkadaşa</span>
+                        </label>
+                        <label class="pill-label">
+                            <input type="radio" name="recipient" value="aile">
+                            <span class="pill-text"><i class="fa-solid fa-house-chimney-user"></i> Aileye</span>
+                        </label>
+                        <label class="pill-label">
+                            <input type="radio" name="recipient" value="teknoloji">
+                            <span class="pill-text"><i class="fa-solid fa-laptop"></i> Teknoloji Severe</span>
+                        </label>
+                        <label class="pill-label">
+                            <input type="radio" name="recipient" value="kahve">
+                            <span class="pill-text"><i class="fa-solid fa-mug-hot"></i> Kahve Severe</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Budget Selector -->
+                <div class="filter-group">
+                    <span class="group-label">Bütçe Aralığı Nedir?</span>
+                    <div class="pill-grid" id="budget-group">
+                        <label class="pill-label">
+                            <input type="radio" name="budget" value="cuzi" checked>
+                            <span class="pill-text">Cüzi (500 TL Altı)</span>
+                        </label>
+                        <label class="pill-label">
+                            <input type="radio" name="budget" value="orta">
+                            <span class="pill-text">Orta (500 - 1500 TL)</span>
+                        </label>
+                        <label class="pill-label">
+                            <input type="radio" name="budget" value="luks">
+                            <span class="pill-text">Lüks (1500 TL+)</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google AdSense Sponsored Card -->
+            <div class="glass-card ad-card">
+                <span class="ad-badge">S P O N S O R L U   A L A N</span>
+                <div class="ad-placeholder">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                         data-ad-slot="1234567890"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                    <div class="ad-fallback-text"><i class="fa-solid fa-rectangle-ad"></i> Reklam Alanı (AdSense Onayı Sonrası Aktifleşir)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RIGHT COLUMN: Recommendation Display Grid -->
+        <section class="right-col">
+            <div class="glass-card results-card">
+                <h3 class="section-title"><i class="fa-solid fa-gift"></i> Önerilen Estetik Seçimler</h3>
+                <p class="section-subtitle" id="results-count-text">Yükleniyor...</p>
+                
+                <div class="gift-grid" id="gift-list">
+                    <!-- Cards loaded dynamically from gifts.json -->
+                    <div class="gift-item-placeholder">Hediye alternatifleri yükleniyor...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 GiftAura. Zihnini sadeleştir, doğru hediyeyi keşfet.</p>
+            <p class="privacy-note">Minimalist hediye alternatifleri ve estetik seçimler.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
