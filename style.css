@@ -549,6 +549,7 @@ footer {
     justify-content: center;
     gap: 8px;
     box-shadow: 0 4px 15px rgba(158, 125, 40, 0.15);
+    margin-bottom: 25px;
 }
 
 .quiz-trigger-btn:hover {

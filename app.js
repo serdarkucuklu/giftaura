@@ -89,7 +89,7 @@ function renderGiftCards(items) {
             const lowerTitle = gift.title.toLowerCase();
             if (activeQuizInterest === 'teknoloji' && (lowerTitle.includes('klavye') || lowerTitle.includes('hoparlör') || lowerTitle.includes('mouse') || lowerTitle.includes('şarj') || lowerTitle.includes('kablosuz') || lowerTitle.includes('kulaklık') || lowerTitle.includes('saat'))) {
                 isMatch = true;
-            } else if (activeQuizInterest === 'kahve' && (lowerTitle.includes('fincan') || lowerTitle.includes('kahve') || lowerTitle.includes('termos') || lowerTitle.includes('kupa') || lowerTitle.includes('mug') || lowerTitle.includes('seti'))) {
+            } else if (activeQuizInterest === 'kahve' && (lowerTitle.includes('fincan') || lowerTitle.includes('kahve') || lowerTitle.includes('termos') || lowerTitle.includes('kupa') || lowerTitle.includes('mug') || lowerTitle.includes('kahve seti') || lowerTitle.includes('fincan seti'))) {
                 isMatch = true;
             } else if (activeQuizInterest === 'kitap' && (lowerTitle.includes('kitap') || lowerTitle.includes('kalem') || lowerTitle.includes('ayraç') || lowerTitle.includes('defter') || lowerTitle.includes('ajanda'))) {
                 isMatch = true;
