@@ -74,6 +74,11 @@
                 <div class="glass-card filter-card">
                     <h3 class="section-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Hediye Kriterleri</h3>
                     <p class="filter-helper">Aşağıdaki seçenekleri değiştirerek gerçek zamanlı estetik hediye önerilerini listeleyin.</p>
+                    
+                    <!-- Personality Quiz Button -->
+                    <button class="quiz-trigger-btn" id="quiz-trigger-btn">
+                        <i class="fa-solid fa-gifts"></i> Hediye Karar Quizi
+                    </button>
 
                     <!-- Recipient Selector -->
                     <div class="filter-group">
@@ -194,6 +199,60 @@
             <p class="privacy-note">Minimalist hediye alternatifleri ve estetik seçimler.</p>
         </div>
     </footer>
+
+    <!-- Gift Personality Matcher Modal -->
+    <div id="quiz-modal" class="image-modal">
+        <div class="modal-content-wrapper quiz-modal-wrapper">
+            <button class="modal-close" id="quiz-modal-close" aria-label="Kapat">&times;</button>
+            <div class="quiz-modal-content">
+                <h3 class="quiz-modal-title"><i class="fa-solid fa-wand-magic-sparkles" style="color: var(--accent-gold);"></i> Hediye Karar Quizi</h3>
+                <p class="quiz-modal-subtitle">Sevdiklerinizin kişilik tipini analiz ederek en doğru minimalist hediye alternatiflerini listeleyin.</p>
+                
+                <div class="quiz-steps-container">
+                    <!-- Step 1 -->
+                    <div class="quiz-step active" id="quiz-step-1">
+                        <span class="quiz-step-indicator">Soru 1 / 3</span>
+                        <h4 class="quiz-question">Hediye alacağınız kişiyle ilişkiniz nedir?</h4>
+                        <div class="quiz-options-grid">
+                            <button class="quiz-opt-btn" data-q="1" data-val="sevgili">❤️ Sevgilim / Eşim</button>
+                            <button class="quiz-opt-btn" data-q="1" data-val="arkadas">👥 Yakın Arkadaşım</button>
+                            <button class="quiz-opt-btn" data-q="1" data-val="aile">🏠 Aile Üyem</button>
+                            <button class="quiz-opt-btn" data-q="1" data-val="is">💼 İş Arkadaşım</button>
+                        </div>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="quiz-step" id="quiz-step-2">
+                        <span class="quiz-step-indicator">Soru 2 / 3</span>
+                        <h4 class="quiz-question">Onun baskın ilgi alanı / karakter çizgisi?</h4>
+                        <div class="quiz-options-grid">
+                            <button class="quiz-opt-btn" data-q="2" data-val="teknoloji">💻 Teknoloji & Minimalist Gadgetlar</button>
+                            <button class="quiz-opt-btn" data-q="2" data-val="kahve">☕ Kahve & Gusto Sever</button>
+                            <button class="quiz-opt-btn" data-q="2" data-val="kitap">📚 Kitap, Sanat & Kültür Sever</button>
+                            <button class="quiz-opt-btn" data-q="2" data-val="sade">🧘 Sade & Minimalist Tasarım Sever</button>
+                        </div>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="quiz-step" id="quiz-step-3">
+                        <span class="quiz-step-indicator">Soru 3 / 3</span>
+                        <h4 class="quiz-question">Nasıl bir bütçe aralığı planlıyorsunuz?</h4>
+                        <div class="quiz-options-grid">
+                            <button class="quiz-opt-btn" data-q="3" data-val="cuzi">💰 Cüzi (500 TL Altı)</button>
+                            <button class="quiz-opt-btn" data-q="3" data-val="orta">💳 Orta Bütçe (500 - 1500 TL)</button>
+                            <button class="quiz-opt-btn" data-q="3" data-val="luks">💎 Lüks / Kalıcı Seçimler</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result Card -->
+                <div class="quiz-result-card" id="quiz-result-card" style="display: none;">
+                    <div class="result-badge">✨ Profil Eşleşmesi Yapıldı!</div>
+                    <h4 class="result-title" id="quiz-result-title">--</h4>
+                    <p class="result-desc" id="quiz-result-desc">--</p>
+                    <button class="quiz-restart-btn" id="quiz-restart-btn"><i class="fa-solid fa-rotate-left"></i> Testi Yeniden Yap</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
