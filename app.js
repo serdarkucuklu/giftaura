@@ -82,9 +82,7 @@ function renderGiftCards(items) {
     const activeQuizInterest = localStorage.getItem('gift_quiz_interest');
 
     items.forEach(gift => {
-        const card = document.createElement('a');
-        card.href = gift.affiliate_link || '#';
-        card.target = '_blank';
+        const card = document.createElement('div');
         
         let isMatch = false;
         if (activeQuizInterest) {
@@ -115,9 +113,13 @@ function renderGiftCards(items) {
                     </div>
                     <p class="gift-desc">${gift.desc}</p>
                 </div>
-                <div class="gift-action">
-                    <span>Amazon'da İncele</span>
-                    <i class="fa-solid fa-chevron-right"></i>
+                <div class="gift-actions-row">
+                    <a href="${gift.affiliate_link || '#'}" target="_blank" class="gift-action-btn">
+                        İncele <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <button class="add-plan-btn" onclick="addGiftToPlan('${escapeHtml(gift.title)}', '${gift.price}', '${escapeHtml(gift.image_url || '')}', '${gift.affiliate_link || '#'}')">
+                        <i class="fa-solid fa-plus"></i> Plana Ekle
+                    </button>
                 </div>
             </div>
         `;
@@ -333,6 +335,149 @@ quizRestartBtn.addEventListener('click', () => {
     openQuiz();
 });
 
+// Hediye Planım State & Helpers
+let wishlist = JSON.parse(localStorage.getItem('gift_wishlist')) || [];
+
+function saveWishlist() {
+    localStorage.setItem('gift_wishlist', JSON.stringify(wishlist));
+}
+
+function parseGiftPrice(priceStr) {
+    if (!priceStr) return 0;
+    const cleaned = priceStr.replace(/\./g, '').replace(/[^0-9]/g, '');
+    return parseFloat(cleaned) || 0;
+}
+
+function formatTRY(value) {
+    return new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(value);
+}
+
+window.addGiftToPlan = function(title, price, imageUrl, affiliateLink) {
+    const exists = wishlist.some(item => item.title === title);
+    if (exists) {
+        alert('Bu ürün zaten hediye planınızda mevcut.');
+        return;
+    }
+    
+    wishlist.push({ title, price, imageUrl, affiliateLink });
+    saveWishlist();
+    renderWishlist();
+    
+    sendNotificationBanner('Plana Eklendi 🎁', `"${title}" ürünü başarıyla hediye planınıza eklendi.`);
+};
+
+window.deleteGiftFromPlan = function(title) {
+    wishlist = wishlist.filter(item => item.title !== title);
+    saveWishlist();
+    renderWishlist();
+};
+
+function renderWishlist() {
+    const content = document.getElementById('wishlist-content');
+    const summary = document.getElementById('wishlist-summary');
+    const totalVal = document.getElementById('wishlist-total-price');
+    if (!content || !summary || !totalVal) return;
+    
+    content.innerHTML = '';
+    
+    if (wishlist.length === 0) {
+        content.innerHTML = `<p style="color: var(--text-secondary); font-size: 0.8rem; text-align: center; padding: 10px 0;">Henüz plana eklenen hediye yok.</p>`;
+        summary.style.display = 'none';
+        return;
+    }
+    
+    summary.style.display = 'flex';
+    
+    let totalCost = 0;
+    
+    wishlist.forEach(item => {
+        totalCost += parseGiftPrice(item.price);
+        
+        const row = document.createElement('div');
+        row.className = 'wishlist-item';
+        
+        row.innerHTML = `
+            <img src="${item.imageUrl || 'https://via.placeholder.com/150'}" alt="${item.title}" class="wishlist-item-img">
+            <div class="wishlist-item-details">
+                <span class="wishlist-item-title" title="${item.title}">${item.title}</span>
+                <span class="wishlist-item-price">${item.price}</span>
+            </div>
+            <div class="wishlist-item-actions">
+                <a href="${item.affiliateLink}" target="_blank" class="wishlist-item-link" title="İncele">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <button class="wishlist-item-delete" onclick="deleteGiftFromPlan('${escapeHtml(item.title)}')" title="Sil">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+        `;
+        content.appendChild(row);
+    });
+    
+    totalVal.textContent = formatTRY(totalCost);
+}
+
+function exportWishlist() {
+    if (wishlist.length === 0) return;
+    
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+    
+    let text = `GIFT AURA - HEDİYE PLANI & BÜTÇE RAPORU\n`;
+    text += `=======================================\n`;
+    text += `Oluşturulma Tarihi: ${dateStr}\n\n`;
+    text += `SEÇİLEN HEDİYE ALTERNATİFLERİ:\n`;
+    
+    let total = 0;
+    wishlist.forEach((item, index) => {
+        const cost = parseGiftPrice(item.price);
+        total += cost;
+        text += `${index + 1}. ${item.title} (${item.price})\n`;
+        text += `   İnceleme Linki: ${item.affiliateLink}\n\n`;
+    });
+    
+    text += `=======================================\n`;
+    text += `TOPLAM PLANLANAN BÜTÇE: ${formatTRY(total)}\n\n`;
+    text += `GiftAura ile sevdiklerinize en estetik ve anlamlı hediyeleri seçin.\n`;
+    text += `noble.vision.tr\n`;
+    
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `GiftAura-Hediye-Planim-${now.toISOString().slice(0,10)}.txt`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+}
+
+function escapeHtml(text) {
+    if (!text) return '';
+    return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+function sendNotificationBanner(title, body) {
+    // UI Banner alert
+    const banner = document.createElement('div');
+    banner.className = 'custom-alert-banner';
+    banner.innerHTML = `<i class="fa-solid fa-bell"></i> <span><strong>${title}</strong>: ${body}</span>`;
+    document.body.appendChild(banner);
+    
+    setTimeout(() => {
+        banner.classList.add('fade-out');
+        setTimeout(() => banner.remove(), 500);
+    }, 6000);
+}
+
 // Initialize
+const exportBtn = document.getElementById('export-wishlist-btn');
+if (exportBtn) {
+    exportBtn.addEventListener('click', exportWishlist);
+}
+
 loadGifts();
+renderWishlist();
 
